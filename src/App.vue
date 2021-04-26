@@ -29,10 +29,10 @@
       <section id="f-r">
         <div id="f-t">
           <ul>
-            <li><a href="/about">關於我們</a></li>
-            <li><a href="/reserve">場地預約</a></li>
-            <li><a href="/news">最新消息</a></li>
-            <li><a href="">粉絲專頁</a></li>
+            <li><router-link :to="{name:'About'}">關於我們</router-link></li>
+            <li><router-link :to="{name:'Reserve'}">場地預約</router-link></li>
+            <li><router-link :to="{name:'News'}">最新消息</router-link></li>
+            <li><a href="#">粉絲專頁</a></li>
           </ul>
         </div>
         <div id="f-b">
