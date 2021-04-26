@@ -9,11 +9,11 @@
 
       <section id="right" class="navRight">
         <router-link to="/" class="active">首頁</router-link>
-        <router-link :to="{name:'About'}">關於我們</router-link>
-        <router-link :to="{name:'News'}">最新消息</router-link>
-        <router-link :to="{name:'Charge'}">消費方式</router-link>
-        <router-link :to="{name:'Reserve'}">場地預約</router-link>
-        <router-link :to="{name:'Login'}">登入</router-link>
+        <router-link to="/about">關於我們</router-link>
+        <router-link to="/news">最新消息</router-link>
+        <router-link to="/charge">消費方式</router-link>
+        <router-link to="/reserve">場地預約</router-link>
+        <router-link to="/login">登入</router-link>
         <a href="javascript:void(0);" class="icon" v-on:click="RWD">
           <img src="../src/assets/images/menu.png" alt="" />
         </a>
@@ -29,9 +29,9 @@
       <section id="f-r">
         <div id="f-t">
           <ul>
-            <li><router-link :to="{name:'About'}">關於我們</router-link></li>
-            <li><router-link :to="{name:'Reserve'}">場地預約</router-link></li>
-            <li><router-link :to="{name:'News'}">最新消息</router-link></li>
+            <li><router-link to="/about">關於我們</router-link></li>
+            <li><router-link to="/reserve">場地預約</router-link></li>
+            <li><router-link to="/news">最新消息</router-link></li>
             <li><a href="#">粉絲專頁</a></li>
           </ul>
         </div>
