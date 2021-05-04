@@ -3,7 +3,7 @@
     <h1>消費方式</h1>
     <div>
       <img src="../assets/images/charge.png" alt="" />
-      <p>點此 <a href="/login"> 加入會員 </a> 開始你的健身生活！</p>
+      <p>點此 <router-link to="/login"> 加入會員 </router-link> 開始你的健身生活！</p>
     </div>
   </div>
 </template>

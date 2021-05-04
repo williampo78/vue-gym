@@ -139,6 +139,7 @@ h1 {
 }
 .card .inner-card img {
   width: 250px;
+  height: 200px;
 }
 .card-body {
   padding-left: 2rem;
@@ -167,6 +168,7 @@ h1 {
   }
   .card .inner-card img {
     width: 100%;
+    height: auto;
   }
 }
 </style>
